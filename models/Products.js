@@ -18,6 +18,10 @@ const ProductSchema = new mongoose.Schema({
     availabilty:{
         type:Number
     },
+    remaining:{
+        type:Number,
+        default:0
+    },
     native_price:{
         type:Number,
         required:true
